@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "8ee857ea-29e3-4b95-aabe-5ea62d5c77d0",
+		"name": "rewards",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8120/application/rewards/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8120",
+					"path": [
+						"application",
+						"rewards",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"customers\": [\n    {\n      \"customerId\": 1,\n      \"transactions\": [\n        {\n          \"amount\": 201.11,\n          \"transactionDate\": \"2020-01-01\"\n        },\n        {\n          \"amount\": 59.99,\n          \"transactionDate\": \"2020-01-31\"\n        },\n        {\n          \"amount\": 51.32,\n          \"transactionDate\": \"2020-02-01\"\n        },\n        {\n          \"amount\": 1000.32,\n          \"transactionDate\": \"2020-03-15\"\n        },\n        {\n          \"amount\": 49.99,\n          \"transactionDate\": \"2020-03-15\"\n        },\n        {\n          \"amount\": 101.01,\n          \"transactionDate\": \"2020-03-15\"\n        }\n      ]\n    },\n    {\n      \"customerId\": 2,\n      \"transactions\": [\n        {\n          \"amount\": 1.11,\n          \"transactionDate\": \"2020-01-03\"\n        },\n        {\n          \"amount\": 100.32,\n          \"transactionDate\": \"2020-02-01\"\n        }\n      ]\n    },\n    {\n      \"customerId\": 3,\n      \"transactions\": [\n        {\n          \"amount\": 120.00,\n          \"transactionDate\": \"2020-02-29\"\n        }\n      ]\n    },\n    {\n      \"customerId\": 4,\n      \"transactions\": [\n      ]\n    }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8120/application/rewards",
+					"host": [
+						"localhost"
+					],
+					"port": "8120",
+					"path": [
+						"application",
+						"rewards"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,60 @@
+{
+  "customers": [
+    {
+      "customerId": 1,
+      "transactions": [
+        {
+          "amount": 201.11,
+          "transactionDate": "2020-01-01"
+        },
+        {
+          "amount": 59.99,
+          "transactionDate": "2020-01-31"
+        },
+        {
+          "amount": 51.32,
+          "transactionDate": "2020-02-01"
+        },
+        {
+          "amount": 1000.32,
+          "transactionDate": "2020-03-15"
+        },
+        {
+          "amount": 49.99,
+          "transactionDate": "2020-03-15"
+        },
+        {
+          "amount": 101.01,
+          "transactionDate": "2020-03-15"
+        }
+      ]
+    },
+    {
+      "customerId": 2,
+      "transactions": [
+        {
+          "amount": 1.11,
+          "transactionDate": "2020-01-03"
+        },
+        {
+          "amount": 100.32,
+          "transactionDate": "2020-02-01"
+        }
+      ]
+    },
+    {
+      "customerId": 3,
+      "transactions": [
+        {
+          "amount": 120.00,
+          "transactionDate": "2020-02-29"
+        }
+      ]
+    },
+    {
+      "customerId": 4,
+      "transactions": [
+      ]
+    }
+  ]
+}
